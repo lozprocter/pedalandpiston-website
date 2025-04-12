@@ -134,6 +134,16 @@ hr.style-one {
     text-align: center;
 }
 
+.subsection_subheading{
+    text-decoration: none;
+    font-family: 'Fugaz One';
+    font-weight: bold;
+    font-size: 200%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 .social_icon {
     width: 10%;
     margin: 20px;
