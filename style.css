@@ -22,7 +22,7 @@ header {
     position: relative;
     width: 100%;
     height: 600px;
-    overflow: hidden;
+
     }
 
 #hero_bg{
@@ -43,6 +43,10 @@ header {
     width: 50%;
     z-index: 2;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
 }
 
 #bicycles{
@@ -202,6 +206,27 @@ hr.style-one {
 #hero_text{
     color: #432534;
     font-family: "Fugaz One";
-    padding: 50px;
+    padding: 20px;
 
+}
+
+.flex_grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #EFD6AC;
+    border-radius: 15px;
+    color: #183A37;
+    padding: 20px;
+    margin: 20px;
+    font-size: 150%;
+    font-family: "Fugaz One";
+    width: 40%;
 }
