@@ -57,10 +57,16 @@ header {
     align-items: center;
     background-color: #183A37;
     color: #EFD6AC;
+    width: 100%;
 }
 
-#motorcyles{
-
+#motorcycles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efd6ac;
+    color: #183A37;
+    width: 100%;
 }
 
 #contact_page{
@@ -112,7 +118,18 @@ hr.style-one {
     text-decoration: none;
     font-family: 'Fugaz One';
     font-weight: bold;
+    font-size: 500%;
+    padding: 0;
+    margin: 40px;
+}
+
+.section_subheading{
+    text-decoration: none;
+    font-family: 'Fugaz One';
+    font-weight: bold;
     font-size: 300%;
+    padding: 0;
+    margin: 0;
 }
 
 .social_icon {
@@ -182,6 +199,7 @@ hr.style-one {
     border-radius: 10px;
     border: 2px solid #183A37;
     font-family: "Fugaz One";
+    font-size: 150%;
 }
 
 #message{
@@ -214,9 +232,11 @@ hr.style-one {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
-.service_item{
+.service_item_bicycle{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,4 +249,26 @@ hr.style-one {
     font-size: 150%;
     font-family: "Fugaz One";
     width: 40%;
+}
+
+.service_item_motorcycle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #183A37;
+    border-radius: 15px;
+    color: #EFD6AC;
+    padding: 20px;
+    margin: 20px;
+    font-size: 150%;
+    font-family: "Fugaz One";
+    width: 40%;
+}
+
+.price{
+    text-decoration: none;
+    font-family: 'Fugaz One';
+    font-size: 100%;
+    color: #C44900;
 }
