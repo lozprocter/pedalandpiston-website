@@ -107,6 +107,7 @@ hr.style-one {
 .contact_detail{
     color: #183A37;
     font-family: 'Fugaz One';
+    text-decoration: none;
 }
 
 #credits{
