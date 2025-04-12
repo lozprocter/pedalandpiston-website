@@ -121,6 +121,7 @@ hr.style-one {
     font-size: 500%;
     padding: 0;
     margin: 40px;
+    text-align: center;
 }
 
 .section_subheading{
@@ -130,6 +131,7 @@ hr.style-one {
     font-size: 300%;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .social_icon {
