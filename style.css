@@ -130,7 +130,7 @@ hr.style-one {
     font-weight: bold;
     font-size: 300%;
     padding: 0;
-    margin: 0;
+    margin: 30px;
     text-align: center;
 }
 
@@ -208,6 +208,7 @@ hr.style-one {
 .contact_input{
     width: 40%;
     margin: 5px;
+    padding: 20px;
     border-radius: 10px;
     border: 2px solid #183A37;
     font-family: "Fugaz One";
