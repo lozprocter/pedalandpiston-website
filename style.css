@@ -29,18 +29,6 @@ header {
     list-style: none;
 }
 
-@media (max-width: 768px) {
-    header {
-        height: 25%;
-    }
-  }
-
-@media (max-width: 768px) {
-    #navbar {
-      flex-direction: column;
-    }
-  }
-
 #hero {
     position: relative;
     width: 100%;
@@ -310,3 +298,15 @@ hr.style-one {
 #submit_icon{
     padding-left: 15px;
 }
+
+@media (max-width: 1000px) {
+    header {
+        height: 25%;
+    }
+  }
+
+@media (max-width: 1000px) {
+    #navbar {
+      flex-direction: column;
+    }
+  }
