@@ -32,7 +32,7 @@ header {
     position: relative;
     width: 100%;
     height: 600px;
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 
 #hero_bg{
@@ -308,5 +308,11 @@ hr.style-one {
 @media (max-width: 1000px) {
     #navbar {
       flex-direction: column;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    #hero {
+      margin-top: 25vh;
     }
   }
