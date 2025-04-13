@@ -301,7 +301,7 @@ hr.style-one {
 
 @media (max-width: 1000px) {
     header {
-        height: 25%;
+        height: 25vh;
     }
   }
 
