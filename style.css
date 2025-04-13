@@ -1,5 +1,5 @@
 :root{
-    scroll-padding-top: 25vh;
+    scroll-padding-top: 15vh;
 }
 
 body{
@@ -227,7 +227,7 @@ hr.style-one {
     height: 100px;
 }
 
-.button{
+#submit_button{
     border-radius: 10px;
     font-family: "Fugaz One";
     font-size: 18px;
@@ -242,7 +242,25 @@ hr.style-one {
     justify-content: space-between;
 }
 
-.button:hover{
+.book_button{
+    border-radius: 10px;
+    font-family: "Fugaz One";
+    font-size: 18px;
+    background-color: #c44900;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.submit_button:hover{
+    transform: scale(1.1);
+}
+
+.book_button:hover{
     transform: scale(1.1);
 }
 
@@ -303,20 +321,26 @@ hr.style-one {
     fill: white;
 }
 
+@media (max-width: 1000px){
+    :root{
+        scroll-padding-top: 25vh;
+    }
+  }
+
 @media (max-width: 1000px) {
-    header {
+    header{
         height: 25vh;
     }
   }
 
 @media (max-width: 1000px) {
-    #navbar {
+    #navbar{
       flex-direction: column;
     }
   }
 
   @media (max-width: 1000px) {
-    #hero {
+    #hero{
       margin-top: 25vh;
     }
   }
