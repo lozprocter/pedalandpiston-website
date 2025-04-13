@@ -33,6 +33,9 @@ header {
     width: 100%;
     height: 600px;
     margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #hero_bg{
@@ -53,15 +56,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;
+    align-items: center;
 }
 
 #bicycles{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #183A37;
-    color: #EFD6AC;
+    background-color: #efd6ac;
+    color: #183A37;
     width: 100%;
 }
 
@@ -69,8 +72,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #efd6ac;
-    color: #183A37;
+    background-color: #183a37;
+    color: #efd6ac;
     width: 100%;
 }
 
@@ -263,9 +266,9 @@ hr.style-one {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    background-color: #EFD6AC;
+    background-color: #183A37;
     border-radius: 15px;
-    color: #183A37;
+    color: #efd6ac;
     padding: 20px;
     margin: 20px;
     font-size: 150%;
@@ -278,9 +281,9 @@ hr.style-one {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    background-color: #183A37;
+    background-color: #efd6ac;
     border-radius: 15px;
-    color: #EFD6AC;
+    color: #183A37;
     padding: 20px;
     margin: 20px;
     font-size: 150%;
@@ -297,6 +300,7 @@ hr.style-one {
 
 #submit_icon{
     padding-left: 15px;
+    fill: white;
 }
 
 @media (max-width: 1000px) {
