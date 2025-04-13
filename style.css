@@ -91,7 +91,7 @@ header {
     font-family: 'Fugaz One';
     font-weight: bold;
     transition: 0.3s ease-in-out;
-    font-size: 200%;
+    font-size: 30px;
 }
 
 .nav_button:hover{
