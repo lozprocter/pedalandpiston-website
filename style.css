@@ -35,7 +35,7 @@ header {
     margin-top: 15vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 #hero_bg{
@@ -51,12 +51,13 @@ header {
 
 #hero_content{
     position: relative;
-    width: 50%;
+    width: 30%;
     z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
+    margin: 10%;
 }
 
 #bicycles{
@@ -234,7 +235,7 @@ hr.style-one {
     background-color: #183A37;
     color: white;
     padding: 10px;
-    padding-left: 50px;
+    padding-inline: 30px;
     transition: all 0.2s ease-in-out;
     margin: 20px;
     display: flex;
@@ -256,7 +257,7 @@ hr.style-one {
     text-decoration: none;
 }
 
-.submit_button:hover{
+#submit_button:hover{
     transform: scale(1.1);
 }
 
@@ -265,7 +266,7 @@ hr.style-one {
 }
 
 #hero_text{
-    color: #432534;
+    color: #04151f;
     font-family: "Fugaz One";
     padding: 20px;
 
@@ -314,11 +315,7 @@ hr.style-one {
     font-family: 'Fugaz One';
     font-size: 100%;
     color: #C44900;
-}
-
-#submit_icon{
-    padding-left: 15px;
-    fill: white;
+    display: inline;
 }
 
 @media (max-width: 1000px){
