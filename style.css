@@ -222,6 +222,10 @@ hr.style-one {
     border: 2px solid #183A37;
     font-family: "Fugaz One";
     font-size: 150%;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
 }
 
 #message{
