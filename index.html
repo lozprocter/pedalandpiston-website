@@ -8,16 +8,16 @@
     <meta name="format-detection" content="telephone=no">
     <meta charset="UTF-8">
 </head>
+<header>
+    <a class="img_link" href="index.html"><img id="logo" src="imgs/Pedal_and_Piston_Logo_Colour_Square.png" alt="Pedal and Piston logo"></a>
+    <ul id="navbar">
+        <li><a class="nav_button" href="index.html">Home</a></li>
+        <li><a class="nav_button" href="#bicycles">Bicycles</a></li>
+        <li><a class="nav_button" href="#motorcycles">Motorcyles</a></li>
+        <li><a class="nav_button" href="#contact_page">Contact</a></li>
+    </ul>
+</header>
 <body>
-    <header>
-        <a class="img_link" href="index.html"><img id="logo" src="imgs/Pedal_and_Piston_Logo_Colour_Square.png" alt="Pedal and Piston logo"></a>
-        <ul id="navbar">
-            <li><a class="nav_button" href="index.html">Home</a></li>
-            <li><a class="nav_button" href="#bicycles">Bicycles</a></li>
-            <li><a class="nav_button" href="#motorcycles">Motorcyles</a></li>
-            <li><a class="nav_button" href="#contact_page">Contact</a></li>
-        </ul>
-    </header>
     <section id="home">
         <div id="hero">
             <div id="hero_bg"></div>
@@ -174,15 +174,14 @@
         </div>
     </section>
     <section id="contact_page">
-        <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="0b3f6f1a-5223-4924-8458-ddf4ab278a20">
+        <form id="contact_form" action="send_email.php" method="POST">
             <h1 class="section_subheading">Get in touch</h1>
             <input type="text" name="name" placeholder="Full Name" class="contact_input">
             <input type="text" name="email" placeholder="Email Address" class="contact_input">
             <select name="type" class="contact_input">
                 <option value="" disabled selected>Please select</option>
-                <option value="bicycle">Bicycle</option>
-                <option value="motorcycle">Motorcycle</option>
+                <option value="Bicycle">Bicycle</option>
+                <option value="Motorcycle">Motorcycle</option>
             </select>
             <textarea name="details" placeholder="How can we help?" class="contact_input" id="message"></textarea>
             <button id="submit_button" type="submit">Submit</button>

@@ -322,6 +322,19 @@ hr.style-one {
     display: inline;
 }
 
+#contact_confirmation_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    flex-direction: column;
+}
+
+.contact_confirmation_text{
+    font-family: "Fugaz One";
+    color: #183A37;
+}
+
 @media (max-width: 1000px){
     :root{
         scroll-padding-top: 25vh;
@@ -343,5 +356,11 @@ hr.style-one {
   @media (max-width: 1000px) {
     #hero{
       margin-top: 25vh;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    #contact_confirmation_page{
+        margin-top: 25vh;
     }
   }
