@@ -327,6 +327,7 @@ hr.style-one {
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
+    margin-inline: 5%;
     flex-direction: column;
 }
 
@@ -361,6 +362,6 @@ hr.style-one {
 
   @media (max-width: 1000px) {
     #contact_confirmation_page{
-        margin-top: 25vh;
+        margin-top: 35vh;
     }
   }
