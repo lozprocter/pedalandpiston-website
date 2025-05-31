@@ -1,5 +1,6 @@
 <?php
 
+$secret = $_POST["secret"];
 $name = $_POST["name"];
 $email = $_POST["email"];
 $type = $_POST["type"];
@@ -10,14 +11,18 @@ $recipient = "loz@pedalandpiston.com";
 
 $subject = "New Form Submission: " .$name." - ".$type." ";
 
-$body = "Name: ".$name."\nEmail: ".$email."\nType: ".$type."\n\nMessage: \n".$details."\nMarketing: ".$marketing."";
+$body = "Name: ".$name."\nEmail: ".$email."\nType: ".$type."\n\nMessage: \n".$details."\n\nMarketing: ".$marketing."";
 
 $headers = "From: \"Website Form: $name\" <sh-1051892668@eu.hosting-webspace.io>\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-mail($recipient, $subject, $body, $headers)
-or die("Error!");
+if( ! empty( $secret ) ){
+		return;
+}else{
+    mail($recipient, $subject, $body, $headers)
+    or die("Error!");
+}
 
 echo'
 <!DOCTYPE html>

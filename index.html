@@ -181,8 +181,9 @@
     <section id="contact_page">
         <form id="contact_form" action="send_email.php" method="POST">
             <h1 class="section_subheading">Get in touch</h1>
+            <input type="hidden" name="secret">
             <input type="text" name="name" placeholder="Full Name" class="contact_input" required>
-            <input type="text" name="email" placeholder="Email Address" class="contact_input" required>
+            <input type="email" name="email" placeholder="Email Address" class="contact_input" required>
             <select name="type" class="contact_input" required>
                 <option value="" disabled selected>Please select</option>
                 <option value="Bicycle">Bicycle</option>
@@ -190,7 +191,7 @@
             </select>
             <textarea name="details" placeholder="How can we help?" class="contact_input" id="message" required></textarea>
             <label for="marketing" class="contact_detail">Tick to receive offers and updates via email</label>
-            <input type="checkbox" name="marketing" class="contact_input">
+            <input type="checkbox" name="marketing">
             <button id="submit_button" type="submit">Submit</button>
             
         </form>
