@@ -23,14 +23,13 @@ echo'
 <html lang="en">
 <head>
     <title>Pedal and Piston</title>
-    <link rel="icon" type="image/x-icon" href="imgs/Pedal_and_Piston_Logo_Colour_No_Background.ico">
+    <link rel="icon" type="image/x-icon" href="imgs/Pedal_&_Piston_Logo_Round_Background_100px.ico">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-    <meta name="format-detection" content="telephone=no">
     <meta charset="UTF-8">
 </head>
 <header>
-    <a class="img_link" href="index.html"><img id="logo" src="imgs/Pedal_and_Piston_Logo_Colour_Square.png" alt="Pedal and Piston logo"></a>
+    <a class="img_link" href="index.html"><img id="logo" src="imgs/Pedal_&_Piston_Logo_Square_Background.png" alt="Pedal and Piston logo"></a>
     <ul id="navbar">
         <li><a class="nav_button" href="index.html">Home</a></li>
         <li><a class="nav_button" href="#bicycles">Bicycles</a></li>
