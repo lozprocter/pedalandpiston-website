@@ -4,12 +4,13 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $type = $_POST["type"];
 $details = $_POST["details"];
+$marketing = $_POST["marketing"];
 
 $recipient = "loz@pedalandpiston.com";
 
 $subject = "New Form Submission: " .$name." - ".$type." ";
 
-$body = "Name: ".$name."\nEmail: ".$email."\nType: ".$type."\n\nMessage: \n".$details."\n";
+$body = "Name: ".$name."\nEmail: ".$email."\nType: ".$type."\n\nMessage: \n".$details."\nMarketing: ".$marketing."";
 
 $headers = "From: \"Website Form: $name\" <sh-1051892668@eu.hosting-webspace.io>\r\n";
 $headers .= "Reply-To: $email\r\n";
