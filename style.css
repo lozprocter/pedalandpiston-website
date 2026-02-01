@@ -151,6 +151,7 @@ hr.style-one {
     margin-inline: 5%;
     text-align: left;
     justify-content: center;
+    margin-block: 0%;
 }
 
 .subsection_subheading{
@@ -172,6 +173,8 @@ hr.style-one {
     margin-inline: 5%;
     text-align: left;
     justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 .social_icon {
