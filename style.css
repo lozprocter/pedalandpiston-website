@@ -393,5 +393,9 @@ hr.style-one {
     .engineering_image{
     width: 50%;
     padding-inline: 1%;
-}
+    }
+    .gallery_image{
+        width: 40%;
+        margin: 2%;
+    }
 }
