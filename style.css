@@ -42,7 +42,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('imgs/Bicycle mechanic.jpg');
+    background-image: url('imgs/hero_2.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(8px);
@@ -70,6 +70,14 @@ header {
 }
 
 #engineering{
+    display: flex;
+    flex-direction: column;
+    background-color:  #183A37;
+    color: #efd6ac;
+    width: 100%;
+}
+
+#gallery{
     display: flex;
     flex-direction: column;
     background-color:  #183A37;
@@ -142,16 +150,31 @@ hr.style-one {
     text-align: center;
 }
 
+.engineering_section{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-inline: 12%;
+    margin-block: 1%;
+}
+
+.engineering_image{
+    width: 25%;
+    padding-inline: 1%;
+}
+
 .engineering_section_subheading{
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 300%;
-    padding: 0;
-    margin-inline: 5%;
     text-align: left;
     justify-content: center;
     margin-block: 0%;
+}
+
+.engineering_section_text{
+    padding-inline: 1%;
 }
 
 .subsection_subheading{
@@ -169,12 +192,8 @@ hr.style-one {
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 150%;
-    padding: 0;
-    margin-inline: 5%;
     text-align: left;
     justify-content: center;
-    margin-top: 1%;
-    margin-bottom: 5%;
 }
 
 .social_icon {
@@ -334,6 +353,18 @@ hr.style-one {
     color: #183A37;
 }
 
+#gallery_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 5%;
+    justify-content: center;
+}
+
+.gallery_image{
+    width: 25%;
+    margin: 2%;
+}
+
 @media (max-width: 1000px){
     header{
         height: 15vh;
@@ -348,7 +379,7 @@ hr.style-one {
         width: 30%;
         text-align: center;
         margin-inline: 5%;
-        margin: 3%;
+        margin: 0%;
     }
 
     #hero{
@@ -358,4 +389,9 @@ hr.style-one {
     #contact_confirmation_page{
         margin-top: 35vh;
     }
+
+    .engineering_image{
+    width: 50%;
+    padding-inline: 1%;
+}
 }
